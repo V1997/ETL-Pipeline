@@ -36,7 +36,7 @@ class BatchProcessor:
             config: Dictionary with configuration options
         """
         self.config = config or {}
-        self.batch_size = self.config.get("BATCH_SIZE", 5000)
+        self.batch_size = self.config.get("BATCH_SIZE", 100)
         self.max_workers = self.config.get("MAX_WORKERS", 4)
         self.retry_attempts = self.config.get("RETRY_ATTEMPTS", 3)
         self.error_threshold = self.config.get("ERROR_THRESHOLD", 0.05)  # 5% error threshold

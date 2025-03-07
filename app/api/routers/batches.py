@@ -83,7 +83,6 @@ async def create_batch(
             created_by=current_user.username
         )
 
-
         batch_id = BatchResponse.batch_id 
         current_time = datetime.utcnow()
         source_value = source

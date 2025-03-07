@@ -214,8 +214,8 @@ class TestETLWorkflow(unittest.TestCase):
         logger.info("Setting up ETL test environment")
         
         # Database setup
-        cls.db_url = os.getenv("TEST_DATABASE_URL", "sqlite:///./test_etl.db")
-        cls.setup_database(cls.db_url)
+        # cls.db_url = os.getenv("TEST_DATABASE_URL", "sqlite:///./test_etl.db")
+        # cls.setup_database(cls.db_url)
         
         # Kafka setup
         cls.kafka_servers = os.getenv("KAFKA_BOOTSTRAP_SERVERS", "localhost:9092")
@@ -762,7 +762,7 @@ class TestETLWorkflow(unittest.TestCase):
                 "sales_channel": "Online",
                 "order_priority": "H",
                 "order_date": "2025-03-01",
-                "order_id": f"NA-2025-{5000000+i}",
+                "order_id": f"NA-2025-{100+i}",
                 "ship_date": "2025-03-15",
                 "units_sold": 100,
                 "unit_price": 99.99,
