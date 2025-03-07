@@ -1,5 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session
+from sqlalchemy.ext.declarative import declarative_base
 from contextlib import contextmanager
 import os
 from dotenv import load_dotenv
@@ -35,6 +36,9 @@ engine = create_engine(
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 ScopedSession = scoped_session(SessionLocal)
 
+# Base class for models
+Base = declarative_base()
+
 @contextmanager
 def get_db_session():
     """Provide a transactional scope around a series of operations."""
@@ -57,3 +61,19 @@ def get_session():
         yield session
     finally:
         session.close()
+        
+def check_database_connection() -> bool:
+    """
+    Check if database connection works
+    
+    Returns:
+        bool: True if connection is working
+    """
+    try:
+        # Execute a simple query
+        with get_db_session() as session:
+            session.execute("SELECT 1")
+        return True
+    except Exception as e:
+        logger.error(f"Database connection check failed: {str(e)}")
+        return False

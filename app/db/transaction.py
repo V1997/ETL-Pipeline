@@ -2,7 +2,7 @@ from contextlib import contextmanager
 from sqlalchemy.exc import SQLAlchemyError
 import logging
 from .session import get_db_session
-from models.models import ETLAudit, ETLError
+from app.models.models import ETLError, ETLAudit
 
 # Set up logging
 logger = logging.getLogger(__name__)
