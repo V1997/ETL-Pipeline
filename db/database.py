@@ -1,46 +1,36 @@
-# app/db/database.py
-
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-import os
-from dotenv import load_dotenv
+from contextlib import asynccontextmanager
+from ..config.settings import settings
 
-# Load environment variables
-load_dotenv()
+# SQLAlchemy Database URL Configuration
+SQLALCHEMY_DATABASE_URL = f"mysql+pymysql://{settings.DB_USER}:{settings.DB_PASSWORD}@{settings.DB_HOST}:{settings.DB_PORT}/{settings.DB_NAME}"
 
-# Database connection parameters
-DB_HOST = os.getenv('DB_HOST', 'localhost')
-DB_PORT = int(os.getenv('DB_PORT', 3306))
-DB_USER = os.getenv('DB_USER', 'etl_user')
-DB_PASSWORD = os.getenv('DB_PASSWORD', 'etl_password')
-DB_NAME = os.getenv('DB_NAME', 'sales_etl')
-
-# Create SQLAlchemy database URL
-DATABASE_URL = f"mysql+pymysql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-
-# Create database engine
+# Create the database engine
 engine = create_engine(
-    DATABASE_URL,
-    echo=False,  # Set to True for debugging SQL queries
-    pool_recycle=3600,  # Recycle connections after 1 hour to prevent stale connections
-    pool_pre_ping=True  # Verify connection is still active before using
+    SQLALCHEMY_DATABASE_URL,
+    pool_pre_ping=True,
+    pool_recycle=3600,
+    pool_size=10,
+    max_overflow=20
 )
 
-# Create session factory
+# Create the session factory
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-# Base class for SQLAlchemy models
+# Declare the Base class for ORM models
 Base = declarative_base()
 
-# Dependency to get DB session
+# Define async-friendly get_db function
+@asynccontextmanager
 def get_db():
-    """
-    Dependency function to get a database session.
-    Yields a session and ensures it's closed after use.
-    """
     db = SessionLocal()
     try:
         yield db
+        db.commit()
+    except Exception:
+        db.rollback()
+        raise
     finally:
         db.close()
