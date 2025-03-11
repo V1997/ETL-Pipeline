@@ -1,0 +1,1164 @@
+2025-03-07 21:56:10,765 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-07 21:56:10,773 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-07 21:56:10,773 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-07 21:59:41,212 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-07 21:59:41,213 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-07 21:59:41,213 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-07 21:59:42,246 - app.kafka.consumer - ERROR - Consumer error: KafkaError{code=UNKNOWN_TOPIC_OR_PART,val=3,str="Subscribed topic not available: sales-records: Broker: Unknown topic or partition"}
+2025-03-07 21:59:42,359 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-07 22:00:46,569 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-07 22:00:46,571 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-07 22:00:46,571 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-07 22:00:46,580 - app.kafka.consumer - ERROR - Consumer error: KafkaError{code=UNKNOWN_TOPIC_OR_PART,val=3,str="Subscribed topic not available: sales-records: Broker: Unknown topic or partition"}
+2025-03-07 22:00:46,623 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-07 22:02:59,276 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-07 22:02:59,278 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-07 22:02:59,278 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-07 22:02:59,285 - app.kafka.consumer - ERROR - Consumer error: KafkaError{code=UNKNOWN_TOPIC_OR_PART,val=3,str="Subscribed topic not available: sales-records: Broker: Unknown topic or partition"}
+2025-03-07 22:02:59,321 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.OperationalError) (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-07 22:03:13,395 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-07 22:03:13,397 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-07 22:03:13,397 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-07 22:03:13,406 - app.kafka.consumer - ERROR - Consumer error: KafkaError{code=UNKNOWN_TOPIC_OR_PART,val=3,str="Subscribed topic not available: sales-records: Broker: Unknown topic or partition"}
+2025-03-07 22:03:13,429 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.DataError) (1406, "Data too long for column 'job_id' at row 1")
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-5ce1cf35-69bb-4bdc-b7fc-04feceae18e8', 'error_type': 'CONSUMER_ERROR', 'error_message': 'Kafka consumer error: KafkaError{code=UNKNOWN_TOPIC_OR_PART,val=3,str="Subscribed topic not available: sales-records: Broker: Unknown topic or partition"}', 'error_details': 'null', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-03-07 22:05:05,841 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-07 22:05:05,842 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-07 22:05:05,842 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-07 22:09:58,681 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-07 22:09:58,683 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-07 22:09:58,683 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-07 22:18:16,054 - app.kafka.consumer - ERROR - Error in default message handler: Expecting value: line 1 column 1 (char 0)
+2025-03-07 22:18:16,079 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.DataError) (1406, "Data too long for column 'job_id' at row 1")
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-79a829ad-7841-44eb-95b5-5cc2e2643230', 'error_type': 'MESSAGE_HANDLER_ERROR', 'error_message': 'Error in default message handler: Expecting value: line 1 column 1 (char 0)', 'error_details': '{"message": "test"}', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-03-07 22:36:48,620 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-07 22:36:48,622 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-07 22:36:48,622 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-07 22:56:22,668 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-07 22:56:22,669 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-07 22:56:22,669 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-07 23:35:35,334 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-07 23:35:35,345 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-07 23:35:35,345 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-07 23:45:10,073 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-07 23:45:10,075 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-07 23:45:10,075 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-07 23:48:37,705 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:49:07,952 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:49:37,643 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:50:07,152 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:50:37,954 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:51:07,652 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:51:45,965 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:52:10,715 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:52:37,966 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:53:07,650 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:53:45,960 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:54:45,641 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:55:41,783 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:56:24,650 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-07 23:56:24,659 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 00:03:19,542 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 00:03:19,543 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 00:03:19,543 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 00:03:26,230 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 00:03:58,956 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 00:11:40,792 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 00:11:40,793 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 00:11:40,794 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 00:11:44,760 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 00:12:17,661 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 00:12:47,960 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 00:12:59,850 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 00:12:59,852 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 00:12:59,853 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 09:24:56,667 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 09:24:56,668 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 09:24:56,668 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 09:26:14,194 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 09:26:14,196 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 09:26:14,196 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 09:27:07,663 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:27:37,967 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:28:07,649 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:28:37,958 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:29:45,956 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:30:45,656 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:31:45,965 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:32:45,643 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:33:45,967 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:34:45,657 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:35:45,960 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:36:45,654 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:37:45,958 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:38:45,654 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:39:45,960 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:40:45,645 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:41:45,959 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:42:45,657 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:43:45,967 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:44:45,651 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:45:45,964 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:46:45,654 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:47:45,959 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:48:45,655 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:49:45,966 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:50:45,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:51:45,963 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:52:45,657 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:53:45,962 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:54:45,656 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:55:45,958 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:56:45,659 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:57:45,965 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:58:45,646 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 09:59:45,965 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:00:45,662 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:01:45,993 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:02:45,652 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:03:45,965 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:04:45,662 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:05:45,965 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:06:45,657 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:07:45,961 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:08:45,659 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:09:45,956 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:10:45,648 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:11:45,955 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:12:45,656 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:13:45,957 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:14:45,661 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:15:45,968 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:16:45,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:17:45,967 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:18:45,659 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:19:45,957 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:20:45,655 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:21:45,964 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:22:45,652 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:23:45,970 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:24:45,966 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:25:45,652 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:26:45,955 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:27:45,950 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:28:45,642 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:29:45,962 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:30:45,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 10:31:45,943 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:27:00,968 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:27:30,651 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:28:00,970 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:28:30,652 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:29:45,962 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:30:45,652 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:36:06,483 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 11:36:06,487 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 11:36:06,487 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 11:36:46,690 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:37:16,948 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:38:19,536 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 11:38:19,539 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 11:38:19,540 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 11:38:53,655 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:38:55,971 - app.kafka.consumer - INFO - Stopped Kafka consumer for topic sales-records
+2025-03-08 11:38:55,972 - app.main - INFO - Stopped Kafka consumer
+2025-03-08 11:41:35,162 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 11:41:35,165 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 11:41:35,165 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 11:41:38,263 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:42:09,966 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:42:39,649 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:43:09,952 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:43:39,642 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:44:45,960 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:45:11,626 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:45:19,027 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 11:45:19,030 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 11:45:19,030 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 11:45:43,649 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:45:57,657 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 11:59:03,539 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 11:59:03,540 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 11:59:03,541 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:16:59,960 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:16:59,962 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:16:59,962 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:17:45,812 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<DataExtractor._process_file() done, defined at C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py:76> exception=AttributeError('__enter__')>
+Traceback (most recent call last):
+  File "C:\Users\patel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\compat\_optional.py", line 135, in import_optional_dependency
+    module = importlib.import_module(name)
+  File "C:\Users\patel\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'openpyxl'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 83, in _process_file
+    df = pd.read_excel(file_path)
+  File "C:\Users\patel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+  File "C:\Users\patel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\excel\_base.py", line 1567, in __init__
+    self._reader = self._engines[engine](
+  File "C:\Users\patel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\io\excel\_openpyxl.py", line 552, in __init__
+    import_optional_dependency("openpyxl")
+  File "C:\Users\patel\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\compat\_optional.py", line 138, in import_optional_dependency
+    raise ImportError(msg)
+ImportError: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 126, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+2025-03-08 12:18:38,701 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:18:38,704 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:18:38,704 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:18:43,329 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<DataExtractor._process_file() done, defined at C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py:76> exception=AttributeError('__enter__')>
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 110, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 126, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+2025-03-08 12:23:16,111 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:23:16,112 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:23:16,112 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:23:19,607 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<DataExtractor._process_file() done, defined at C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py:76> exception=UnboundLocalError("local variable 'db' referenced before assignment")>
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 110, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 126, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 154, in _process_file
+    db.close()
+UnboundLocalError: local variable 'db' referenced before assignment
+2025-03-08 12:23:46,544 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:23:46,545 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:23:46,546 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:23:49,843 - app.core.etl.extract - WARNING - Failed to clean up file /tmp/etl-uploads\c6d018d6-28fa-40b7-aac8-1722310c4867_SalesData.xlsx: local variable 'db' referenced before assignment
+2025-03-08 12:23:49,843 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<DataExtractor._process_file() done, defined at C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py:76> exception=AttributeError('__enter__')>
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 110, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 126, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+2025-03-08 12:23:56,906 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:23:56,907 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:23:56,907 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:26:35,004 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<DataExtractor._process_file() done, defined at C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py:76> exception=AttributeError('__enter__')>
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 110, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 126, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+2025-03-08 12:27:34,089 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:27:34,090 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:27:34,090 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:27:36,497 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<DataExtractor._process_file() done, defined at C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py:76> exception=UnboundLocalError("local variable 'db' referenced before assignment")>
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 110, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 126, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 149, in _process_file
+    db.close()
+UnboundLocalError: local variable 'db' referenced before assignment
+2025-03-08 12:27:55,029 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:27:55,031 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:27:55,031 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:27:58,314 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:27:58,317 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:27:58,317 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:27:59,596 - app.core.etl.extract - WARNING - Failed to clean up file /tmp/etl-uploads\6cacaa7d-3446-4204-a9f0-56a5582b9471_SalesData.xlsx: local variable 'db' referenced before assignment
+2025-03-08 12:27:59,597 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<DataExtractor._process_file() done, defined at C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py:76> exception=AttributeError('__enter__')>
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 110, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 126, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+2025-03-08 12:30:59,137 - app.core.etl.extract - WARNING - Failed to clean up file /tmp/etl-uploads\e6d91f60-747b-4df5-98d7-e4c61d1e78a9_SalesData.xlsx: local variable 'db' referenced before assignment
+2025-03-08 12:30:59,137 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<DataExtractor._process_file() done, defined at C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py:76> exception=AttributeError('__enter__')>
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 110, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\patel\Downloads\ETL-StartUpProject\etl-sales-pipeline\backend\app\core\etl\extract.py", line 126, in _process_file
+    with get_db() as db:
+AttributeError: __enter__
+2025-03-08 12:33:35,376 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:33:39,217 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:34:06,809 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:34:06,811 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:34:06,811 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:34:24,361 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:34:24,363 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:34:24,364 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:34:48,893 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:34:48,894 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:34:48,894 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:35:00,043 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:35:00,045 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:35:00,045 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:35:01,982 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:35:10,819 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:35:10,820 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:35:10,821 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:35:36,754 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:35:36,755 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:35:36,755 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:35:37,651 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:35:59,003 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:35:59,005 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:35:59,005 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:35:59,930 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:36:43,358 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:36:43,359 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:36:43,359 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:36:44,039 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:36:52,143 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:36:52,145 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:36:52,146 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:36:53,275 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:38:45,870 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:38:45,872 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:38:45,872 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:38:58,983 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:38:58,985 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:38:58,985 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:39:00,224 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:40:02,065 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:40:02,065 - app.kafka.producer - ERROR - Failed to send sales record to Kafka: Object of type date is not JSON serializable
+2025-03-08 12:40:02,067 - app.kafka.producer - ERROR - Failed to send error to Kafka: Object of type date is not JSON serializable
+2025-03-08 12:43:07,227 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:43:07,229 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:43:07,229 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:43:54,245 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:43:54,245 - app.kafka.producer - ERROR - Failed to send sales record to Kafka: name 'date' is not defined
+2025-03-08 12:43:54,245 - app.kafka.producer - ERROR - Failed to send error to Kafka: Object of type date is not JSON serializable
+2025-03-08 12:44:01,084 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:44:01,086 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:44:01,086 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:44:57,860 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:44:57,863 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:44:57,863 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:44:58,611 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:44:58,612 - app.kafka.producer - ERROR - Failed to send sales record to Kafka: name 'date' is not defined
+2025-03-08 12:44:58,612 - app.kafka.producer - ERROR - Failed to send error to Kafka: Object of type date is not JSON serializable
+2025-03-08 12:45:51,706 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:45:51,709 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:45:51,710 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:45:52,563 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:45:52,563 - app.kafka.producer - ERROR - Failed to send sales record to Kafka: name 'date' is not defined
+2025-03-08 12:45:52,563 - app.kafka.producer - ERROR - Failed to send error to Kafka: Object of type date is not JSON serializable
+2025-03-08 12:45:57,083 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:45:57,084 - app.kafka.producer - ERROR - Failed to send sales record to Kafka: name 'date' is not defined
+2025-03-08 12:45:57,085 - app.kafka.producer - ERROR - Failed to send error to Kafka: Object of type date is not JSON serializable
+2025-03-08 12:46:23,602 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:46:23,603 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:46:23,603 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:46:27,044 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:46:27,045 - app.kafka.producer - ERROR - Failed to send sales record to Kafka: name 'date' is not defined
+2025-03-08 12:46:27,045 - app.kafka.producer - ERROR - Failed to send error to Kafka: Object of type date is not JSON serializable
+2025-03-08 12:47:01,688 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:47:01,689 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:47:01,690 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:47:07,587 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:47:07,588 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:47:07,589 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:47:13,582 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:47:14,687 - app.kafka.consumer - ERROR - Error in default message handler: __enter__
+2025-03-08 12:47:14,687 - app.kafka.consumer - ERROR - Failed to log error to database: __enter__
+2025-03-08 12:48:48,904 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:48:48,919 - app.kafka.consumer - ERROR - Error in default message handler: __enter__
+2025-03-08 12:48:48,919 - app.kafka.consumer - ERROR - Failed to log error to database: __enter__
+2025-03-08 12:49:49,310 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:49:49,311 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:49:49,312 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:50:06,618 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:50:06,619 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:50:06,620 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:50:07,876 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:50:07,899 - app.kafka.consumer - ERROR - Error in default message handler: __enter__
+2025-03-08 12:50:07,900 - app.kafka.consumer - ERROR - Failed to log error to database: __enter__
+2025-03-08 12:52:04,448 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:52:04,449 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:52:04,449 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:52:07,065 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:52:07,067 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:52:07,067 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:52:12,016 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:52:12,018 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:52:12,018 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:52:13,393 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:52:13,402 - app.kafka.consumer - ERROR - Error in default message handler: __enter__
+2025-03-08 12:52:13,402 - app.kafka.consumer - ERROR - Failed to log error to database: __enter__
+2025-03-08 12:55:43,688 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:55:43,689 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:55:43,690 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 12:55:48,542 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 12:55:48,608 - app.kafka.consumer - ERROR - Error loading record to database: no running event loop
+2025-03-08 12:55:48,616 - app.kafka.consumer - ERROR - Failed to process streaming record for job ca316851-e133-4df8-bb8c-9e2dbf22806e: (builtins.TypeError) Object of type date is not JSON serializable
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, severity, record_data) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(severity)s, %(record_data)s)]
+[parameters: [{'record_data': {'region': 'North America', 'country': 'Usa', 'item_type': 'Electronics', 'sales_channel': 'Online', 'order_priority': 'M', 'order_dat ... (470 characters truncated) ... R', 'job_id': 'ca316851-e133-4df8-bb8c-9e2dbf22806e', 'severity': 'HIGH', 'error_message': 'Failed to load record to database: no running event loop'}]]
+2025-03-08 12:55:48,617 - app.kafka.consumer - ERROR - Error in default message handler: (builtins.TypeError) Object of type date is not JSON serializable
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, severity, record_data) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(severity)s, %(record_data)s)]
+[parameters: [{'record_data': {'region': 'North America', 'country': 'Usa', 'item_type': 'Electronics', 'sales_channel': 'Online', 'order_priority': 'M', 'order_dat ... (470 characters truncated) ... R', 'job_id': 'ca316851-e133-4df8-bb8c-9e2dbf22806e', 'severity': 'HIGH', 'error_message': 'Failed to load record to database: no running event loop'}]]
+2025-03-08 12:55:48,619 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.DataError) (1406, "Data too long for column 'job_id' at row 1")
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-b941ba70-eef6-41da-8af8-0fb3b7290137', 'error_type': 'MESSAGE_HANDLER_ERROR', 'error_message': "Error in default message handler: (builtins.TypeError) Object of type date is not JSON serializable\n[SQL: INSERT INTO error_logs (job_id, error_type ... (331 characters truncated) ...  'job_id': 'ca316851-e133-4df8-bb8c-9e2dbf22806e', 'severity': 'HIGH', 'error_message': 'Failed to load record to database: no running event loop'}]]", 'error_details': '{"message": "{\\"region\\": \\"North America\\", \\"country\\": \\"USA\\", \\"item_type\\": \\"Electronics\\", \\"sales_channel\\": \\"Online\\", \\" ... (248 characters truncated) ... ull, \\"total_profit\\": null, \\"kafka_timestamp\\": \\"2025-03-08T18:55:48.542666\\", \\"event_id\\": \\"f91f9441-eeaf-43d0-914b-96b74ca88da7\\"}"}', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-03-08 12:57:27,354 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 12:57:27,356 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 12:57:27,356 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:07:05,117 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:07:05,118 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:07:05,119 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:07:06,527 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:07:06,568 - app.kafka.consumer - ERROR - Error loading record to database: no running event loop
+2025-03-08 13:07:06,575 - app.kafka.consumer - ERROR - Failed to process streaming record for job d999647f-b012-417a-945b-43be33ff1974: (builtins.TypeError) Object of type date is not JSON serializable
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, severity, record_data) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(severity)s, %(record_data)s)]
+[parameters: [{'error_type': 'RECORD_LOADING_ERROR', 'record_data': {'region': 'North America', 'country': 'Usa', 'item_type': 'Electronics', 'sales_channel': 'Onli ... (470 characters truncated) ... '}, 'job_id': 'd999647f-b012-417a-945b-43be33ff1974', 'severity': 'HIGH', 'error_message': 'Failed to load record to database: no running event loop'}]]
+2025-03-08 13:07:06,576 - app.kafka.consumer - ERROR - Error in default message handler: (builtins.TypeError) Object of type date is not JSON serializable
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, severity, record_data) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(severity)s, %(record_data)s)]
+[parameters: [{'error_type': 'RECORD_LOADING_ERROR', 'record_data': {'region': 'North America', 'country': 'Usa', 'item_type': 'Electronics', 'sales_channel': 'Onli ... (470 characters truncated) ... '}, 'job_id': 'd999647f-b012-417a-945b-43be33ff1974', 'severity': 'HIGH', 'error_message': 'Failed to load record to database: no running event loop'}]]
+2025-03-08 13:07:06,585 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`sales_etl`.`error_logs`, CONSTRAINT `error_logs_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `etl_jobs` (`job_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-ce0669d0-3023-4920-9a6a-4c446537fea7', 'error_type': 'MESSAGE_HANDLER_ERROR', 'error_message': "Error in default message handler: (builtins.TypeError) Object of type date is not JSON serializable\n[SQL: INSERT INTO error_logs (job_id, error_type ... (331 characters truncated) ...  'job_id': 'd999647f-b012-417a-945b-43be33ff1974', 'severity': 'HIGH', 'error_message': 'Failed to load record to database: no running event loop'}]]", 'error_details': '{"message": "{\\"region\\": \\"North America\\", \\"country\\": \\"USA\\", \\"item_type\\": \\"Electronics\\", \\"sales_channel\\": \\"Online\\", \\" ... (248 characters truncated) ... ull, \\"total_profit\\": null, \\"kafka_timestamp\\": \\"2025-03-08T19:07:06.527367\\", \\"event_id\\": \\"8e042ecc-f783-440f-a057-a7a5cdcfedd0\\"}"}', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-08 13:09:32,755 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:09:32,756 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:09:32,756 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:09:34,187 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:09:34,229 - app.kafka.consumer - ERROR - Error loading record to database: no running event loop
+2025-03-08 13:09:34,236 - app.kafka.consumer - ERROR - Failed to process streaming record for job fba9bded-f56e-44b8-88e4-701e5c2ed52b: (builtins.TypeError) Object of type date is not JSON serializable
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, severity, record_data) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(severity)s, %(record_data)s)]
+[parameters: [{'job_id': 'fba9bded-f56e-44b8-88e4-701e5c2ed52b', 'error_message': 'Failed to load record to database: no running event loop', 'record_data': {'regio ... (470 characters truncated) ... 'fba9bded-f56e-44b8-88e4-701e5c2ed52b', 'etl_transformed_at': '2025-03-08T13:09:34.224735'}, 'severity': 'HIGH', 'error_type': 'RECORD_LOADING_ERROR'}]]
+2025-03-08 13:09:34,238 - app.kafka.consumer - ERROR - Error in default message handler: (builtins.TypeError) Object of type date is not JSON serializable
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, severity, record_data) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(severity)s, %(record_data)s)]
+[parameters: [{'job_id': 'fba9bded-f56e-44b8-88e4-701e5c2ed52b', 'error_message': 'Failed to load record to database: no running event loop', 'record_data': {'regio ... (470 characters truncated) ... 'fba9bded-f56e-44b8-88e4-701e5c2ed52b', 'etl_transformed_at': '2025-03-08T13:09:34.224735'}, 'severity': 'HIGH', 'error_type': 'RECORD_LOADING_ERROR'}]]
+2025-03-08 13:09:34,241 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`sales_etl`.`error_logs`, CONSTRAINT `error_logs_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `etl_jobs` (`job_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-c7e3df21-fa92-403d-9768-1fc06bc418ce', 'error_type': 'MESSAGE_HANDLER_ERROR', 'error_message': "Error in default message handler: (builtins.TypeError) Object of type date is not JSON serializable\n[SQL: INSERT INTO error_logs (job_id, error_type ... (331 characters truncated) ... a9bded-f56e-44b8-88e4-701e5c2ed52b', 'etl_transformed_at': '2025-03-08T13:09:34.224735'}, 'severity': 'HIGH', 'error_type': 'RECORD_LOADING_ERROR'}]]", 'error_details': '{"message": "{\\"region\\": \\"North America\\", \\"country\\": \\"USA\\", \\"item_type\\": \\"Electronics\\", \\"sales_channel\\": \\"Online\\", \\" ... (248 characters truncated) ... ull, \\"total_profit\\": null, \\"kafka_timestamp\\": \\"2025-03-08T19:09:34.187718\\", \\"event_id\\": \\"45f0683d-95f1-4fe6-bbc2-e5206ab2d980\\"}"}', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-08 13:09:48,662 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:09:48,664 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:09:48,664 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:11:12,344 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:11:12,345 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:11:12,345 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:11:37,771 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:11:37,773 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:11:37,773 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:11:45,061 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:11:45,087 - app.kafka.consumer - ERROR - Error in default message handler: name 'preprocess_data' is not defined
+2025-03-08 13:11:45,123 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`sales_etl`.`error_logs`, CONSTRAINT `error_logs_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `etl_jobs` (`job_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-42ebefa3-1e23-428c-ae13-2dcb41db5e12', 'error_type': 'MESSAGE_HANDLER_ERROR', 'error_message': "Error in default message handler: name 'preprocess_data' is not defined", 'error_details': '{"message": "{\\"region\\": \\"North America\\", \\"country\\": \\"USA\\", \\"item_type\\": \\"Electronics\\", \\"sales_channel\\": \\"Online\\", \\" ... (248 characters truncated) ... ull, \\"total_profit\\": null, \\"kafka_timestamp\\": \\"2025-03-08T19:11:45.063404\\", \\"event_id\\": \\"df2bd205-7761-47f4-8870-d1d595233555\\"}"}', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-08 13:12:30,725 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:12:30,727 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:12:30,727 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:12:35,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:12:35,683 - app.kafka.consumer - ERROR - Error in default message handler: name 'preprocess_data' is not defined
+2025-03-08 13:12:35,715 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`sales_etl`.`error_logs`, CONSTRAINT `error_logs_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `etl_jobs` (`job_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-f5f5993d-164f-4172-8aca-4c52e6e71b98', 'error_type': 'MESSAGE_HANDLER_ERROR', 'error_message': "Error in default message handler: name 'preprocess_data' is not defined", 'error_details': '{"message": "{\\"region\\": \\"North America\\", \\"country\\": \\"USA\\", \\"item_type\\": \\"Electronics\\", \\"sales_channel\\": \\"Online\\", \\" ... (248 characters truncated) ... ull, \\"total_profit\\": null, \\"kafka_timestamp\\": \\"2025-03-08T19:12:35.653819\\", \\"event_id\\": \\"b1c41595-b7e3-4765-9a0e-1e6c00a39271\\"}"}', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-08 13:12:51,188 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:12:51,189 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:12:51,190 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:12:52,485 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:12:52,515 - app.kafka.consumer - ERROR - Error in default message handler: name 'preprocess_data' is not defined
+2025-03-08 13:12:52,548 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`sales_etl`.`error_logs`, CONSTRAINT `error_logs_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `etl_jobs` (`job_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-78a1c739-b356-4d96-a7ff-86a53b1ffb12', 'error_type': 'MESSAGE_HANDLER_ERROR', 'error_message': "Error in default message handler: name 'preprocess_data' is not defined", 'error_details': '{"message": "{\\"region\\": \\"North America\\", \\"country\\": \\"USA\\", \\"item_type\\": \\"Electronics\\", \\"sales_channel\\": \\"Online\\", \\" ... (248 characters truncated) ... ull, \\"total_profit\\": null, \\"kafka_timestamp\\": \\"2025-03-08T19:12:52.485517\\", \\"event_id\\": \\"8bbeef96-6eea-4e94-bb78-b3b54771c8f8\\"}"}', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-08 13:13:22,695 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:13:22,696 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:13:22,697 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:13:38,795 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:13:38,796 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:13:38,796 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:14:57,177 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:14:57,179 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:14:57,179 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:15:02,281 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:15:02,330 - app.kafka.consumer - ERROR - Error loading record to database: no running event loop
+2025-03-08 13:15:02,336 - app.kafka.consumer - ERROR - Failed to process streaming record for job 73c6aef3-ffc7-443b-9d61-68fa58bf6e56: (builtins.TypeError) Object of type date is not JSON serializable
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, severity, record_data) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(severity)s, %(record_data)s)]
+[parameters: [{'error_message': 'Failed to load record to database: no running event loop', 'record_data': {'region': 'North America', 'country': 'Usa', 'item_type' ... (470 characters truncated) ... formed_at': '2025-03-08T13:15:02.326915'}, 'job_id': '73c6aef3-ffc7-443b-9d61-68fa58bf6e56', 'severity': 'HIGH', 'error_type': 'RECORD_LOADING_ERROR'}]]
+2025-03-08 13:15:02,336 - app.kafka.consumer - ERROR - Error in default message handler: (builtins.TypeError) Object of type date is not JSON serializable
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, severity, record_data) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(severity)s, %(record_data)s)]
+[parameters: [{'error_message': 'Failed to load record to database: no running event loop', 'record_data': {'region': 'North America', 'country': 'Usa', 'item_type' ... (470 characters truncated) ... formed_at': '2025-03-08T13:15:02.326915'}, 'job_id': '73c6aef3-ffc7-443b-9d61-68fa58bf6e56', 'severity': 'HIGH', 'error_type': 'RECORD_LOADING_ERROR'}]]
+2025-03-08 13:15:02,340 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`sales_etl`.`error_logs`, CONSTRAINT `error_logs_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `etl_jobs` (`job_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-bfb2d25e-8e20-46cf-a945-52f1af5c9bdb', 'error_type': 'MESSAGE_HANDLER_ERROR', 'error_message': "Error in default message handler: (builtins.TypeError) Object of type date is not JSON serializable\n[SQL: INSERT INTO error_logs (job_id, error_type ... (331 characters truncated) ... med_at': '2025-03-08T13:15:02.326915'}, 'job_id': '73c6aef3-ffc7-443b-9d61-68fa58bf6e56', 'severity': 'HIGH', 'error_type': 'RECORD_LOADING_ERROR'}]]", 'error_details': '{"message": "{\\"region\\": \\"North America\\", \\"country\\": \\"USA\\", \\"item_type\\": \\"Electronics\\", \\"sales_channel\\": \\"Online\\", \\" ... (248 characters truncated) ... ull, \\"total_profit\\": null, \\"kafka_timestamp\\": \\"2025-03-08T19:15:02.282218\\", \\"event_id\\": \\"e199c413-f947-4141-a0ef-a7b2bd8df9c7\\"}"}', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-08 13:16:16,615 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:16:16,617 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:16:16,617 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:16:19,665 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:16:19,726 - app.kafka.consumer - ERROR - Error loading record to database: string indices must be integers
+2025-03-08 13:16:19,736 - app.kafka.consumer - ERROR - Failed to process streaming record for job fb42fd5d-52c1-448a-9ccd-09af20694b79: string indices must be integers
+2025-03-08 13:16:19,736 - app.kafka.consumer - ERROR - Error in default message handler: string indices must be integers
+2025-03-08 13:16:19,740 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`sales_etl`.`error_logs`, CONSTRAINT `error_logs_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `etl_jobs` (`job_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-202a86bf-c226-458a-9944-9ce18fadb62b', 'error_type': 'MESSAGE_HANDLER_ERROR', 'error_message': 'Error in default message handler: string indices must be integers', 'error_details': '{"message": "{\\"region\\": \\"North America\\", \\"country\\": \\"USA\\", \\"item_type\\": \\"Electronics\\", \\"sales_channel\\": \\"Online\\", \\" ... (248 characters truncated) ... ull, \\"total_profit\\": null, \\"kafka_timestamp\\": \\"2025-03-08T19:16:19.665507\\", \\"event_id\\": \\"e788abdc-927f-47a0-a033-015b87e6781a\\"}"}', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-08 13:16:45,879 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:16:45,882 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:16:45,882 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:18:01,576 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:18:01,636 - app.kafka.consumer - ERROR - Failed to process streaming record for job 7c938c6d-3e9c-4fb6-babe-6ba413f86f73: name 'transmessageformed_data' is not defined
+2025-03-08 13:18:01,636 - app.kafka.consumer - ERROR - Error in default message handler: name 'transmessageformed_data' is not defined
+2025-03-08 13:18:01,640 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`sales_etl`.`error_logs`, CONSTRAINT `error_logs_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `etl_jobs` (`job_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-8734fca7-a76a-401c-8f61-1cc8658b8aae', 'error_type': 'MESSAGE_HANDLER_ERROR', 'error_message': "Error in default message handler: name 'transmessageformed_data' is not defined", 'error_details': '{"message": "{\\"region\\": \\"North America\\", \\"country\\": \\"USA\\", \\"item_type\\": \\"Electronics\\", \\"sales_channel\\": \\"Online\\", \\" ... (248 characters truncated) ... ull, \\"total_profit\\": null, \\"kafka_timestamp\\": \\"2025-03-08T19:18:01.576575\\", \\"event_id\\": \\"00785bb9-09e7-42ae-a2c4-6b9c5696e02e\\"}"}', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-08 13:18:34,143 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:18:34,145 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:18:34,145 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:18:35,832 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:18:35,878 - app.kafka.consumer - ERROR - Error loading record to database: no running event loop
+2025-03-08 13:18:35,884 - app.kafka.consumer - ERROR - Failed to process streaming record for job 2a6fbaea-c522-4a24-99c8-0fe3fe9e184a: (builtins.TypeError) Object of type date is not JSON serializable
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, severity, record_data) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(severity)s, %(record_data)s)]
+[parameters: [{'record_data': {'region': 'North America', 'country': 'Usa', 'item_type': 'Electronics', 'sales_channel': 'Online', 'order_priority': 'M', 'order_dat ... (470 characters truncated) ... -0fe3fe9e184a', 'error_type': 'RECORD_LOADING_ERROR', 'error_message': 'Failed to load record to database: no running event loop', 'severity': 'HIGH'}]]
+2025-03-08 13:18:35,884 - app.kafka.consumer - ERROR - Error in default message handler: (builtins.TypeError) Object of type date is not JSON serializable
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, severity, record_data) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(severity)s, %(record_data)s)]
+[parameters: [{'record_data': {'region': 'North America', 'country': 'Usa', 'item_type': 'Electronics', 'sales_channel': 'Online', 'order_priority': 'M', 'order_dat ... (470 characters truncated) ... -0fe3fe9e184a', 'error_type': 'RECORD_LOADING_ERROR', 'error_message': 'Failed to load record to database: no running event loop', 'severity': 'HIGH'}]]
+2025-03-08 13:18:35,888 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`sales_etl`.`error_logs`, CONSTRAINT `error_logs_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `etl_jobs` (`job_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-b17c9e03-9d9b-40b0-bae7-7f8300da336f', 'error_type': 'MESSAGE_HANDLER_ERROR', 'error_message': "Error in default message handler: (builtins.TypeError) Object of type date is not JSON serializable\n[SQL: INSERT INTO error_logs (job_id, error_type ... (331 characters truncated) ... e3fe9e184a', 'error_type': 'RECORD_LOADING_ERROR', 'error_message': 'Failed to load record to database: no running event loop', 'severity': 'HIGH'}]]", 'error_details': '{"message": "{\\"region\\": \\"North America\\", \\"country\\": \\"USA\\", \\"item_type\\": \\"Electronics\\", \\"sales_channel\\": \\"Online\\", \\" ... (248 characters truncated) ... ull, \\"total_profit\\": null, \\"kafka_timestamp\\": \\"2025-03-08T19:18:35.832159\\", \\"event_id\\": \\"cbea73ea-f24d-4259-ace8-92fc158480d9\\"}"}', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-08 13:19:12,684 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:19:12,685 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:19:12,686 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:19:39,135 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:19:39,137 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:19:39,137 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:20:34,576 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:20:34,577 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:20:34,578 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:21:00,061 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:21:00,087 - app.kafka.consumer - ERROR - Error loading record to database: no running event loop
+2025-03-08 13:21:00,097 - app.kafka.consumer - ERROR - Failed to process streaming record for job 6c4474ee-fc48-4895-bdf1-355e2d21c5c1: no running event loop
+2025-03-08 13:21:00,097 - app.kafka.consumer - ERROR - Error in default message handler: no running event loop
+2025-03-08 13:21:00,101 - app.kafka.consumer - ERROR - Failed to log error to database: (pymysql.err.IntegrityError) (1452, 'Cannot add or update a child row: a foreign key constraint fails (`sales_etl`.`error_logs`, CONSTRAINT `error_logs_ibfk_1` FOREIGN KEY (`job_id`) REFERENCES `etl_jobs` (`job_id`) ON DELETE CASCADE)')
+[SQL: INSERT INTO error_logs (job_id, error_type, error_message, error_details, severity) VALUES (%(job_id)s, %(error_type)s, %(error_message)s, %(error_details)s, %(severity)s)]
+[parameters: {'job_id': 'consumer-2f8bdf93-23aa-4ab9-80d5-840147b5c1b9', 'error_type': 'MESSAGE_HANDLER_ERROR', 'error_message': 'Error in default message handler: no running event loop', 'error_details': '{"message": "{\\"region\\": \\"North America\\", \\"country\\": \\"USA\\", \\"item_type\\": \\"Electronics\\", \\"sales_channel\\": \\"Online\\", \\" ... (248 characters truncated) ... ull, \\"total_profit\\": null, \\"kafka_timestamp\\": \\"2025-03-08T19:21:00.061737\\", \\"event_id\\": \\"510dc8a5-84f0-48bd-abe5-e531c35e2aee\\"}"}', 'severity': 'HIGH'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-08 13:26:27,811 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:26:27,813 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:26:27,813 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:26:35,384 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:43:02,283 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:43:02,290 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:43:02,290 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:43:04,911 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:43:04,935 - app.kafka.consumer - ERROR - Error in default message handler: __aenter__
+2025-03-08 13:43:04,936 - app.kafka.consumer - ERROR - Failed to log error to database: __aenter__
+2025-03-08 13:44:25,469 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:44:25,481 - app.kafka.consumer - ERROR - Error in default message handler: __aenter__
+2025-03-08 13:44:25,481 - app.kafka.consumer - ERROR - Failed to log error to database: __aenter__
+2025-03-08 13:45:39,134 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:45:39,136 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:45:39,136 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 13:45:41,008 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 13:45:41,028 - app.kafka.consumer - ERROR - Error in default message handler: __aenter__
+2025-03-08 13:45:41,028 - app.kafka.consumer - ERROR - Failed to log error to database: __aenter__
+2025-03-08 13:46:20,805 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 13:46:20,807 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 13:46:20,807 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:11:56,831 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:11:56,837 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:11:56,838 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:12:03,336 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 14:12:03,359 - app.kafka.consumer - ERROR - Error in default message handler: __aenter__
+2025-03-08 14:15:17,375 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:15:17,378 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:15:17,378 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:15:19,639 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 14:15:19,660 - app.kafka.consumer - ERROR - Error in default message handler: __aenter__
+2025-03-08 14:15:49,707 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:15:49,709 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:15:49,709 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:15:51,757 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 14:15:51,781 - app.kafka.consumer - ERROR - Error in default message handler: __aenter__
+2025-03-08 14:15:51,783 - app.kafka.consumer - ERROR - Error processing message: object NoneType can't be used in 'await' expression
+2025-03-08 14:16:22,228 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:16:22,230 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:16:22,230 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:16:23,982 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 14:16:24,007 - app.kafka.consumer - ERROR - Error in default message handler: __aenter__
+2025-03-08 14:16:24,009 - app.kafka.consumer - ERROR - Error processing message: object NoneType can't be used in 'await' expression
+2025-03-08 14:16:32,529 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 14:16:32,540 - app.kafka.consumer - ERROR - Error in default message handler: __aenter__
+2025-03-08 14:16:32,540 - app.kafka.consumer - ERROR - Error processing message: object NoneType can't be used in 'await' expression
+2025-03-08 14:17:01,869 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:17:01,870 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:17:01,871 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:17:04,145 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 14:17:04,159 - app.kafka.consumer - ERROR - Error in default message handler: __aenter__
+2025-03-08 14:17:04,160 - app.kafka.consumer - ERROR - Error processing message: object NoneType can't be used in 'await' expression
+2025-03-08 14:17:30,413 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:17:30,415 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:17:30,415 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:17:32,962 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 14:17:54,228 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 14:21:26,603 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:21:26,604 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:21:26,605 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:21:50,241 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:21:50,243 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:21:50,244 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:27:14,588 - app.kafka.consumer - INFO - Stopped Kafka consumer for topic sales-records
+2025-03-08 14:27:14,588 - app.main - INFO - Stopped Kafka consumer
+2025-03-08 14:27:59,733 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:27:59,735 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:27:59,735 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:30:04,858 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:30:04,860 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:30:04,860 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:30:42,503 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:30:42,505 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:30:42,505 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:32:02,687 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:32:02,689 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:32:02,689 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:33:51,170 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:33:51,172 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:33:51,172 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:39:28,359 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:39:28,361 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:39:28,362 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:40:37,124 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:40:37,126 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:40:37,126 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:47:31,580 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:47:31,583 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:47:31,583 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:47:46,271 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 14:47:46,273 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 14:47:46,273 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 14:56:48,696 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:05:26,694 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:05:26,696 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:05:26,697 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:10:45,825 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:10:45,827 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:10:45,827 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:11:27,286 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:11:27,288 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:11:27,288 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:12:15,941 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:12:15,943 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:12:15,943 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:14:30,459 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:14:30,460 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:14:30,461 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:14:41,056 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:14:41,060 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:14:41,061 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:19:54,261 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:19:54,265 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:19:54,265 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:20:10,827 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:20:45,961 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:21:45,962 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:22:27,661 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:22:45,966 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:22:57,651 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:23:27,956 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:23:45,646 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:23:57,959 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:24:45,652 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:24:45,666 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:25:45,961 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:25:45,977 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:26:04,442 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:26:04,444 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:26:04,444 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:26:06,543 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:26:06,546 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:26:06,547 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:26:11,892 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:26:27,580 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:26:27,583 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:26:27,584 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:26:45,655 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:26:59,967 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:27:29,655 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:27:45,967 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:27:59,658 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:28:29,957 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:28:45,647 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:29:00,459 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:29:31,965 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:34:04,081 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:34:04,083 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:34:04,084 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:34:26,762 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:34:43,963 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:34:45,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:35:13,656 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:35:43,951 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:35:45,660 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:36:13,646 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:36:46,510 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:36:46,513 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:36:46,513 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:36:46,539 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:36:46,554 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:37:15,691 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:37:45,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:37:47,645 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:38:17,960 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:38:45,654 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:38:47,646 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:39:03,665 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:39:03,667 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:39:03,668 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:39:17,978 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:39:32,266 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:39:32,269 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:39:32,269 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:39:45,664 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:40:07,953 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:40:37,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:40:45,962 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:41:07,649 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:41:28,117 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:41:28,119 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:41:28,119 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:41:37,980 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:41:45,650 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:41:47,089 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:41:47,090 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:41:47,091 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:42:00,713 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:42:00,715 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:42:00,716 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:42:21,658 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:42:37,966 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:42:45,656 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:42:51,955 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:43:07,649 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:43:21,963 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:43:37,648 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:43:45,958 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:43:51,651 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:44:07,953 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:44:45,652 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:44:45,665 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:44:45,675 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:45:45,963 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:45:45,978 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:45:45,987 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:46:45,644 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:46:45,654 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:46:45,676 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:46:46,922 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:46:46,923 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:46:46,924 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:47:24,079 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:47:24,081 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:47:24,082 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:47:24,974 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:47:45,645 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:47:45,657 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:47:45,666 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:47:48,867 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:47:48,868 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:47:48,869 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:47:54,979 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:47:57,947 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:47:57,949 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:47:57,950 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:48:42,661 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:48:45,648 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:48:45,656 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:48:45,676 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:49:52,488 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:49:52,489 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:49:52,490 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:50:31,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:50:45,963 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:50:45,973 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:50:45,983 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:51:01,965 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:51:31,650 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:51:45,962 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:51:45,971 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:51:45,994 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:52:01,651 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:52:45,967 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:52:45,979 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:52:45,990 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:52:46,000 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:53:04,802 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:53:04,803 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:53:04,804 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:53:23,540 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:53:23,542 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:53:23,542 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:53:25,926 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:53:28,987 - app.kafka.consumer - INFO - Stopped Kafka consumer for topic sales-records
+2025-03-08 15:53:28,987 - app.main - INFO - Stopped Kafka consumer
+2025-03-08 15:53:31,801 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:53:31,803 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:53:31,803 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:53:45,665 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:53:45,678 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:53:45,686 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:54:12,964 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:54:42,645 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:54:45,438 - app.kafka.consumer - INFO - Stopped Kafka consumer for topic sales-records
+2025-03-08 15:54:45,438 - app.main - INFO - Stopped Kafka consumer
+2025-03-08 15:54:53,256 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:54:53,259 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:54:53,259 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:55:26,651 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:55:45,958 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:55:45,967 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:55:45,978 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:55:56,650 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:56:26,954 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:56:45,658 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:56:45,687 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:56:45,703 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:56:56,961 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:57:18,867 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:57:18,869 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:57:18,870 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:57:33,211 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:57:33,213 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:57:33,213 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:57:42,088 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:57:42,090 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:57:42,090 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:57:45,963 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:57:46,216 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:57:46,279 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:57:46,543 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:58:18,657 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:58:45,956 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:58:46,220 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:58:46,268 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:58:46,528 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:58:48,656 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:58:53,459 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 15:58:53,462 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 15:58:53,462 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 15:59:29,658 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:59:45,953 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:59:46,217 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:59:46,280 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:59:46,533 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 15:59:59,645 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:00:29,959 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:00:45,650 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:00:45,985 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:00:46,233 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:00:46,310 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:00:59,654 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:01:45,965 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:01:46,227 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:01:46,309 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:01:46,554 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:01:46,650 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:02:45,648 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:02:45,972 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:02:46,237 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:02:46,299 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:02:46,555 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:03:45,647 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:03:45,973 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:03:46,239 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:03:46,298 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:03:46,562 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:04:45,645 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:04:45,973 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:04:46,232 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:04:46,296 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:04:46,544 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:05:45,647 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:05:45,972 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:05:46,240 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:05:46,288 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:05:46,558 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:06:45,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:06:45,978 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:06:46,244 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:06:46,292 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:06:46,557 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:07:45,961 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:07:46,229 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:07:46,288 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:07:46,559 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:07:46,600 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:08:45,647 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:08:45,974 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:08:46,215 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:08:46,295 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:08:46,529 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:09:45,650 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:09:45,990 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:09:46,254 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:09:46,336 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:09:46,570 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:10:45,649 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:10:45,976 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:10:46,240 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:10:46,301 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:10:46,569 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:11:45,652 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:11:45,981 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:11:46,250 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:11:46,307 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:11:46,578 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:12:45,649 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:12:45,974 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:12:46,236 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:12:46,297 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:12:46,561 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:13:45,649 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:13:45,977 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:13:46,242 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:13:46,302 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:13:46,570 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:14:45,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:14:45,978 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:14:46,228 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:14:46,310 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:14:46,540 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:15:45,643 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:15:45,970 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:15:46,218 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:15:46,294 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:15:46,543 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:16:45,649 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:16:45,971 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:16:46,235 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:16:46,299 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:16:46,565 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:17:45,660 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:17:45,984 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:17:46,246 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:17:46,307 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:17:46,593 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:18:45,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:18:45,979 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:18:46,244 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:18:46,301 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:18:46,568 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:19:45,659 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:19:46,002 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:19:46,253 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:19:46,325 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:19:46,580 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:20:45,658 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:20:45,984 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:20:46,251 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:20:46,307 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:20:46,579 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:21:45,954 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:21:46,223 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:21:46,270 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:21:46,550 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:21:46,597 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:22:45,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:22:45,976 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:22:46,242 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:22:46,299 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:22:46,587 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:23:45,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:23:45,973 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:23:46,238 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:23:46,285 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:23:46,571 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:24:45,655 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:24:45,991 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:24:46,260 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:24:46,318 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:24:46,602 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:25:45,651 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:25:45,967 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:25:46,221 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:25:46,285 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:25:46,554 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:26:45,645 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:26:45,958 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:26:46,223 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:26:46,281 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:26:46,560 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:27:45,656 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:27:45,983 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:27:46,250 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:27:46,313 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:27:46,566 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:28:45,648 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:28:45,973 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:28:46,227 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:28:46,300 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:28:46,554 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:29:45,659 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:29:45,997 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:29:46,260 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:29:46,321 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:29:46,588 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:30:45,657 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:30:45,978 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:30:46,242 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:30:46,304 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:30:46,570 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:31:45,656 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:31:45,982 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:31:46,249 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:31:46,311 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:31:46,577 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:32:45,660 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:32:45,998 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:32:46,262 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:32:46,320 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:32:46,589 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:33:45,644 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:33:45,967 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:33:46,237 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:33:46,280 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:33:46,562 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:34:45,657 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:34:45,994 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:34:46,261 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:34:46,321 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:34:46,588 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:35:45,646 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:35:45,982 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:35:46,247 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:35:46,293 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:35:46,579 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:36:45,654 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:36:45,975 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:36:46,244 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:36:46,304 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:36:46,569 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:37:45,658 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:37:45,978 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:37:46,244 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:37:46,303 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:37:46,573 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:38:45,648 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:38:45,972 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:38:46,242 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:38:46,302 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:38:46,565 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:38:50,324 - app.kafka.consumer - INFO - Kafka consumer initialized for topic sales-records
+2025-03-08 16:38:50,326 - app.kafka.consumer - INFO - Started Kafka consumer for topic sales-records
+2025-03-08 16:38:50,326 - app.main - INFO - Started Kafka consumer for sales data stream
+2025-03-08 16:39:15,010 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:39:15,631 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:39:16,371 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:39:26,964 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:39:45,643 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:39:56,961 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:40:26,656 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:40:45,961 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:40:56,647 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:41:45,951 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:41:45,965 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:42:45,642 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:42:45,655 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:43:45,964 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:43:45,981 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:44:45,960 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:44:45,979 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:45:45,950 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:45:45,963 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:46:45,960 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:46:45,977 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:47:45,963 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:47:45,973 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:48:45,653 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:48:45,669 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:49:45,958 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:49:45,974 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:50:45,643 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:50:45,658 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:51:45,965 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:51:45,978 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:52:45,651 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:52:45,663 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:53:45,964 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:53:45,974 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:54:45,655 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:54:45,671 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:55:45,963 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:55:45,972 - app.kafka.producer - INFO - Kafka producer initialized, connecting to localhost:9092
+2025-03-08 16:56:15,254 - app.kafka.consumer - INFO - Stopped Kafka consumer for topic sales-records
+2025-03-08 16:56:15,254 - app.main - INFO - Stopped Kafka consumer
